@@ -78,3 +78,23 @@ curl --request POST \
   --header 'User-Agent: insomnia/9.3.2' \
   --data '{ "numbers": [1, 2] }'
 ```
+
+## Executar Testes
+
+Para executar a suíte de testes, você pode usar o pytest. Aqui estão as instruções para executar os testes localmente e com docker-compose:
+
+### Executar Testes Localmente
+
+Para executar os testes localmente, use o seguinte comando:
+
+```bash
+pytest
+```
+
+### Executar Testes com Docker
+
+Para executar os testes utilizando docker-compose, utilize o seguinte comando:
+
+```bash
+docker-compose run --rm web pytest
+```
