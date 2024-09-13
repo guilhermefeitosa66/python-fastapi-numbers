@@ -3,7 +3,4 @@ class Number:
         return a + b
 
     def divide(self, a: int, b: int) -> float:
-        try:
-            return a / b
-        except Exception as exc:
-            raise exc
+        return a / b
