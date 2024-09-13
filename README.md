@@ -1,3 +1,5 @@
+![Test Status](https://github.com/guilhermefeitosa66/python-fastapi-numbers/actions/workflows/test.yml/badge.svg)
+
 # FastAPI Numbers API
 
 A FastAPI Numbers API é uma aplicação desenvolvida utilizando o framework FastAPI, que permite a criação de APIs de forma rápida e eficiente. Esta API é projetada para realizar cálculos de soma e média com base em uma lista de números fornecida pelo usuário.
